@@ -1,0 +1,26 @@
+# InitOps-Server - Minimal Configuration (Core only)
+vpn:
+  provider: "none"
+
+ollama:
+  enabled: false
+
+services:
+  raspap: false
+  pihole: false
+  n8n: false
+  samba: false
+  sterling_pdf: false
+  cockpit: true
+  grafana: false
+
+nginx:
+  domain: "local"
+  ssl: "self-signed"
+  auth:
+    provider: "basic"
+    users: []
+
+network:
+  interface: "eth0"
+  ap_interface: "wlan0"

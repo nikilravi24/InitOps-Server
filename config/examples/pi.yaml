@@ -1,0 +1,28 @@
+# InitOps-Server - Raspberry Pi Optimized Configuration
+vpn:
+  provider: "pangolin"
+
+ollama:
+  enabled: true
+  model: "llama3.2:3b"  # Fixed model for Pi's limited RAM
+  gpu_acceleration: false
+
+services:
+  raspap: true
+  pihole: true
+  n8n: false          # Too heavy for Pi
+  samba: true
+  sterling_pdf: false # Too heavy for Pi
+  cockpit: true
+  grafana: true
+
+nginx:
+  domain: "local"
+  ssl: "self-signed"
+  auth:
+    provider: "basic"
+    users: []
+
+network:
+  interface: "eth0"
+  ap_interface: "wlan0"

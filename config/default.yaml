@@ -1,0 +1,28 @@
+# InitOps-Server Default Configuration
+vpn:
+  provider: "pangolin"
+
+ollama:
+  enabled: true
+  model: "auto"
+  gpu_acceleration: true
+
+services:
+  raspap: true
+  pihole: true
+  n8n: true
+  samba: true
+  sterling_pdf: true
+  cockpit: true
+  grafana: true
+
+nginx:
+  domain: "local"
+  ssl: "self-signed"
+  auth:
+    provider: "basic"
+    users: []
+
+network:
+  interface: "eth0"
+  ap_interface: "wlan0"
