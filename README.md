@@ -254,13 +254,7 @@ shellcheck lib/*.sh lib/services/*.sh initops.sh
 - **Shellcheck clean** — `shellcheck lib/*.sh lib/services/*.sh`
 - **Test-driven** — Add BATS tests for new features
 
----
 
-## 📄 License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
 
 ## 🙏 Acknowledgments
 
@@ -273,13 +267,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 - [Pangolin](https://pangolin.com/) — No-account VPN
 - [Tailscale](https://tailscale.com/) — Mesh VPN
 
----
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/SanjaiPS-tech/IntiOps-Server/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/SanjaiPS-tech/IntiOps-Server/discussions)
-- **Wiki**: [Project Wiki](https://github.com/SanjaiPS-tech/IntiOps-Server/wiki) (coming soon)
 
 ---
 
